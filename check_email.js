@@ -1,5 +1,9 @@
 import Mailjs from '@cemalgnlts/mailjs';
 
+/**
+ * Use this script to check the inbox of a temporary email account
+ * if main script failed to return a verification link.
+ */
 async function checkInbox() {
     const email = process.argv[2];
     const password = process.argv[3];

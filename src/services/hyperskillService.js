@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
-import {REFERRAL_URL, BRAVE_EXECUTABLE_PATH} from '../config.js';
+import {REFERRAL_URL, BROWSER_EXECUTABLE_PATH} from '../config.js';
 
 export async function register(email, password) {
     console.log('2. Start the Brave browser (via Puppeteer) to register...');
     const browser = await puppeteer.launch({
-        headless: 'new', executablePath: BRAVE_EXECUTABLE_PATH
+        headless: 'new', executablePath: BROWSER_EXECUTABLE_PATH
     });
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36');

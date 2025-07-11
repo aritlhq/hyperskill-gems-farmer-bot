@@ -51,7 +51,7 @@ automation.
     - Open the new `.env` file and edit the variables:
 
    ```env
-   # Replace with your own Hyperskill referral link
+   # Go to https://hyperskill.org/friends and Replace with your own Hyperskill referral link
    REFERRAL_URL="https://hyperskill.org/join/your_referral_code"
 
    # Update with the absolute path to your browser's executable file

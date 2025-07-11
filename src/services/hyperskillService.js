@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import {REFERRAL_URL, BROWSER_EXECUTABLE_PATH} from '../config.js';
 
 export async function register(email, password) {
-    console.log('2. Start the Brave browser (via Puppeteer) to register...');
+    console.log('2. Start the browser (via Puppeteer) to register...');
     const browser = await puppeteer.launch({
         headless: 'new', executablePath: BROWSER_EXECUTABLE_PATH
     });

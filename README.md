@@ -1,3 +1,6 @@
+![Hyperskill Account Automation Bot](./imgs/img.png)
+![Hyperskill Account Automation Bot](./imgs/img_1.png)
+
 # Hyperskill Account Automation Bot
 
 This is a Node.js script that automates the account registration process on Hyperskill through a referral link. It is

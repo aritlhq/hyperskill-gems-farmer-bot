@@ -100,5 +100,5 @@ if user_birthday == "yes":
     print("Happy birthday!")
 ```
 
-Congrats!! you've earned extra gems.
+Back to your main account. Congrats!! you've earned extra gems.
 ![Hyperskill Account Automation Bot](./imgs/img_2.png)

@@ -62,7 +62,43 @@ automation.
 
 ## Usage
 
-Run the script from your terminal using the following command:
+- Run the script from your terminal using the following command:
 
 ```sh
 npm start
+```
+
+- After getting the verification link, open it and login using the account that was generated earlier.
+- Then go to https://hyperskill.org/courses/2-python-developer and complete the course 1 topic `Introduction to Python`.
+- Here are the answers:
+
+Answer 1:
+
+```python
+print("Hello, world!")
+```
+
+Answer 2:
+
+```python
+# Define a function that adds two numbers
+def add_numbers(num1, num2):
+    return num1 + num2
+
+# Call the function with two numbers
+result = add_numbers(3, 4)
+
+# Print the result
+print("The sum of the numbers is " + str(result)) 
+```
+
+Answer 3:
+
+```python
+user_birthday = input("Is it your birthday today? ")
+if user_birthday == "yes":
+    print("Happy birthday!")
+```
+
+Congrats!! you've earned extra gems.
+![Hyperskill Account Automation Bot](./imgs/img_2.png)
